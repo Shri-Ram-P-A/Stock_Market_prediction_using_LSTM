@@ -4,8 +4,8 @@ import numpy as np
 import tensorflow as tf
 
 # %%
-
-data = pd.read_csv("IBM.csv")
+# Download the any kind stock dataset with "Close" column
+data = pd.read_csv("Stock.csv")
 data.head()
 # %%
 
